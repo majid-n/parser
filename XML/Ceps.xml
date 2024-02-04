@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RightsDocument DtdVersion="4" DtdRelease="0">
+    <DocumentIdentification v="A23_11XDISAM-------V_SM_107_20221125" />
+    <DocumentVersion v="1" />
+    <DocumentType v="A23" />
+    <SenderIdentification v="10XCZ-CEPS-GRIDE" codingScheme="A01" />
+    <SenderRole v="A07" />
+    <ReceiverIdentification v="11XDISAM-------V" codingScheme="A01" />
+    <ReceiverRole v="A29" />
+    <CreationDateTime v="2022-11-25T02:35:02Z" />
+    <ApplicableTimeInterval v="2022-11-24T23:00Z/2022-11-25T23:00Z" />
+    <Domain v="10YDOM-1001A028R" codingScheme="A01" />
+    <DocumentStatus v="A02" />
+    <RightsTimeSeries>
+        <TimeSeriesIdentification v="1" />
+        <BusinessType v="A33" />
+        <InArea v="10YHU-MAVIR----U" codingScheme="A01" />
+        <OutArea v="10YSK-SEPS-----K" codingScheme="A01" />
+        <RightsHolder v="11XDISAM-------V" codingScheme="A01" />
+        <ContractIdentification v="I_22112507_SM11XDISAM-------V_YFMO" />
+        <ContractType v="A07" />
+        <MeasureUnitQuantity v="MAW" />
+        <Period>
+            <TimeInterval v="2022-11-25T05:00Z/2022-11-25T06:00Z" />
+            <Resolution v="PT60M" />
+            <Interval>
+                <Pos v="1" />
+                <Qty v="89" />
+            </Interval>
+        </Period>
+    </RightsTimeSeries>
+</RightsDocument>

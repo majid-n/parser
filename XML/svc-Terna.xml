@@ -1,0 +1,23 @@
+<AcknowledgementMessage DtdVersion="2" DtdRelease="3"
+    xmlns="http://www.terna.it/damas/xsd/AcknowledgementMessage.xsd">
+    <MessageIdentification v="ACK_20240202_A30_0001409989" />
+    <MessageDateTime v="2024-02-02T11:57:31Z" />
+    <SenderIdentification v="10X1001A1001A345" codingScheme="A01" />
+    <SenderRole v="A04" />
+    <ReceiverIdentification v="11XDISAM-------V" codingScheme="A01" />
+    <ReceiverRole v="A07" />
+    <ReceivingMessageIdentification v="2024-02-03_11XDISAM_10X1001A" />
+    <ReceivingMessageVersion v="1" />
+    <Reason>
+        <ReasonCode v="A01" />
+        <ReasonText v="Accepted" />
+    </Reason>
+    <TimeSeriesConfirmation>
+        <SendersTimeSeriesIdentification v="27364" />
+        <SendersTimeSeriesVersion v="1" />
+    </TimeSeriesConfirmation>
+    <TimeSeriesConfirmation>
+        <SendersTimeSeriesIdentification v="27365" />
+        <SendersTimeSeriesVersion v="1" />
+    </TimeSeriesConfirmation>
+</AcknowledgementMessage>

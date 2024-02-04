@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AcknowledgementDocument DtdVersion="5" DtdRelease="0">
+    <DocumentIdentification v="RTE_ACK_SUI_240202T104330.804_81"/>
+    <DocumentDateTime v="2024-02-02T10:43:30Z"/>
+    <SenderIdentification v="10XFR-RTE------Q" codingScheme="A01"/>
+    <SenderRole v="A31"/>
+    <ReceiverIdentification v="11XDISAM-------V" codingScheme="A01"/>
+    <ReceiverRole v="A30"/>
+    <ReceivingDocumentIdentification v="2024-02-03_11XDISAM_10XFR-RT_OCAPPI"/>
+    <ReceivingDocumentVersion v="1"/>
+    <ReceivingDocumentType v="A01"/>
+    <DateTimeReceivingDocument v="2024-02-02T10:43:30Z"/>
+    <Reason>
+        <ReasonCode v="A01"/>
+    </Reason>
+</AcknowledgementDocument>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf8"?>
+<AllocationResultDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DtdRelease="0" DtdVersion="4" xsi:noNamespaceSchemaLocation="allocation-result-document.xsd">
+	<DocumentIdentification v="A_RNLL-BE-GB-M-BASE---210101-01" />
+	<DocumentVersion v="1" />
+	<DocumentType v="A25" />
+	<SenderIdentification codingScheme="A01" v="10X1001A1001A57U" />
+	<SenderRole v="A07" />
+	<ReceiverIdentification codingScheme="A01" v="11XDISAM-------V" />
+	<ReceiverRole v="A29" />
+	<CreationDateTime v="2020-12-01T10:55:08Z" />
+	<BidTimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+	<Domain codingScheme="A01" v="10Y1001C--000271" />
+	<SubjectParty codingScheme="A01" v="11XDISAM-------V" />
+	<SubjectRole v="A29" />
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374234" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00001-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="5.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="9.51" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374235" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00002-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="4.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="9.31" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374236" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00003-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="9.21" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374237" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00004-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="9.16" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374238" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00005-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="9.07" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374239" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00006-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="9.01" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374240" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00007-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="5.0" />
+				<BidPriceAmount v="8.54" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374241" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00008-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="8.31" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374242" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00009-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="8.11" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374243" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00010-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="7.61" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374244" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00011-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="7.11" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374245" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00012-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="6.43" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374246" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00013-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="5.46" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374247" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00014-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="3.11" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374248" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00015-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="10.0" />
+				<BidPriceAmount v="0.01" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374249" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00016-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="0.0" />
+				<BidPriceAmount v="0.0" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374250" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00017-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="0.0" />
+				<BidPriceAmount v="0.0" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374251" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00018-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="0.0" />
+				<BidPriceAmount v="0.0" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374252" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00019-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="0.0" />
+				<BidPriceAmount v="0.0" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+	<AllocationTimeSeries>
+		<TimeSeriesIdentification v="AllocationResults_TS_9374253" />
+		<BidDocumentIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BidDocumentVersion v="73" />
+		<BidIdentification v="BID00020-BE-GB" />
+		<AuctionIdentification v="NLL-BE-GB-M-BASE---210101-01" />
+		<BusinessType v="A03" />
+		<InArea codingScheme="A01" v="10YGB----------A" />
+		<OutArea codingScheme="A01" v="10YBE----------2" />
+		<ContractType v="A03" />
+		<ContractIdentification v="11XDISAM-------V311220FO-BE-GB-1I01" />
+		<MeasureUnitQuantity v="MAW" />
+		<Currency v="EUR" />
+		<MeasureUnitPrice v="MWH" />
+		<Period>
+			<TimeInterval v="2020-12-31T23:00Z/2021-01-31T23:00Z" />
+			<Resolution v="P1M" />
+			<Interval>
+				<Pos v="1" />
+				<Qty v="0.0" />
+				<PriceAmount v="9.31" />
+				<BidQty v="0.0" />
+				<BidPriceAmount v="0.0" />
+			</Interval>
+		</Period>
+	</AllocationTimeSeries>
+</AllocationResultDocument>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AcknowledgementDocument DtdVersion="5" DtdRelease="1">
+    <DocumentIdentification v="20240203_ACK_068" />
+    <DocumentDateTime v="2024-02-02T10:45:20Z" />
+    <SenderIdentification v="10XHR-HEP-OPS--A" codingScheme="A01" />
+    <SenderRole v="A04" />
+    <ReceiverIdentification v="11XDISAM-------V" codingScheme="A01" />
+    <ReceiverRole v="A08" />
+    <ReceivingDocumentIdentification v="20240203_TPS_11XDISAM-------V" />
+    <ReceivingDocumentVersion v="1" />
+    <ReceivingDocumentType v="A01" />
+    <ReceivingPayloadName v="20240203_TPS_11XDISAM-------V_10XHR-HEP-OPS--A_1.xml" />
+    <DateTimeReceivingDocument v="2024-02-02T10:43:00Z" />
+    <Reason>
+        <ReasonCode v="A01" />
+        <ReasonText v="Message fully accepted." />
+    </Reason>
+</AcknowledgementDocument>

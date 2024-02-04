@@ -1,0 +1,434 @@
+JAO.Trade
+Working with default parser
+
+IntradaySemoplex.Trade
+<TradeListEntryType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" tradeId="1141794849" state="ACTI" contractId="12015422" qty="8000" px="10500" execTime="2020-12-07T17:46:24.338Z" revisionNo="1" preArranged="false" contractPhase="CONT" decomposed="false" selfTrade="false">
+	<Buy clearingAcctType="P" dlvryAreaId="10YIE-1001A00010" acctId="AU_400101" ordrId="11148176818" txt="" aggressorIndicator="Y" usrCode="TRD102" clOrdrId="88c48e5f-bf94-474c-86d6-7021fefe8349" mbrId="DISEX" xmlns="http://www.deutsche-boerse.com/m7/v6" />
+</TradeListEntryType>
+IntradaySemoplex.Contract
+<ContractListEntryType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" contractId="11988435" prod="SEMOpx_Half_Hour_Power" name="22H2" longName="20201117 22:30-20201117 23:00" dlvryStart="2020-11-17T22:30:00Z" dlvryEnd="2020-11-17T23:00:00Z" predefined="true" revisionNo="7" state="ACTI" tradingPhase="CONT" duration="0.5" actPoint="2020-11-16T11:45:00Z" expPoint="2020-11-17T22:30:00Z" delUnits="0.5">
+	<DlvryAreaState dlvryAreaId="10Y1001A1001A016" state="ACTI" tradingPhase="CONT" tradingPhaseStart="2020-11-16T11:45:00Z" tradingPhaseEnd="2020-11-17T21:30:00Z" xmlns="http://www.deutsche-boerse.com/m7/v6" />
+	<DlvryAreaState dlvryAreaId="10YIE-1001A00010" state="ACTI" tradingPhase="CONT" tradingPhaseStart="2020-11-16T11:45:00Z" tradingPhaseEnd="2020-11-17T21:30:00Z" xmlns="http://www.deutsche-boerse.com/m7/v6" />
+</ContractListEntryType>
+IntradayRNP.Trade
+<Schedule_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-2:scheduledocument:5:1">
+	<mRID>
+		20221108A1711XDISAM-------VIF2GBFR
+	</mRID>
+	<revisionNumber>
+		181
+	</revisionNumber>
+	<type>
+		A01
+	</type>
+	<process.processType>
+		A17
+	</process.processType>
+	<process.classificationType>
+		A01
+	</process.classificationType>
+	<sender_MarketParticipant.mRID codingScheme="A01">
+		10V1001C--000195
+	</sender_MarketParticipant.mRID>
+	<sender_MarketParticipant.marketRole.type>
+		A04
+	</sender_MarketParticipant.marketRole.type>
+	<receiver_MarketParticipant.mRID codingScheme="A01">
+		11XDISAM-------V
+	</receiver_MarketParticipant.mRID>
+	<receiver_MarketParticipant.marketRole.type>
+		A30
+	</receiver_MarketParticipant.marketRole.type>
+	<createdDateTime>
+		2022-11-07T09:02:10Z
+	</createdDateTime>
+	<schedule_Time_Period.timeInterval>
+		<start>
+			2022-11-07T23:00Z
+		</start>
+		<end>
+			2022-11-08T23:00Z
+		</end>
+	</schedule_Time_Period.timeInterval>
+	<domain.mRID codingScheme="A01">
+		10Y1001C--000263
+	</domain.mRID>
+	<matching_Time_Period.timeInterval>
+		<start>
+			2022-11-07T23:00Z
+		</start>
+		<end>
+			2022-11-08T23:00Z
+		</end>
+	</matching_Time_Period.timeInterval>
+	<TimeSeries>
+		<mRID>
+			421966
+		</mRID>
+		<version>
+			181
+		</version>
+		<businessType>
+			A03
+		</businessType>
+		<product>
+			8716867000016
+		</product>
+		<objectAggregation>
+			A04
+		</objectAggregation>
+		<in_Domain.mRID codingScheme="A01">
+			10YFR-RTE------C
+		</in_Domain.mRID>
+		<out_Domain.mRID codingScheme="A01">
+			10YGB----------A
+		</out_Domain.mRID>
+		<in_MarketParticipant.mRID codingScheme="A01">
+			11XDISAM-------V
+		</in_MarketParticipant.mRID>
+		<out_MarketParticipant.mRID codingScheme="A01">
+			11XDISAM-------V
+		</out_MarketParticipant.mRID>
+		<marketAgreement.type>
+			A06
+		</marketAgreement.type>
+		<marketAgreement.mRID>
+			11XDISAM-------V_L_00277_20221108
+		</marketAgreement.mRID>
+		<measurement_Unit.name>
+			MAW
+		</measurement_Unit.name>
+		<curveType>
+			A01
+		</curveType>
+		<Period>
+			<timeInterval>
+				<start>
+					2022-11-07T23:00Z
+				</start>
+				<end>
+					2022-11-08T23:00Z
+				</end>
+			</timeInterval>
+			<resolution>
+				PT60M
+			</resolution>
+			<Point>
+				<position>
+					1
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					2
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					3
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					4
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					5
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					6
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					7
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					8
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					9
+				</position>
+				<quantity>
+					145.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					10
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					11
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					12
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					13
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					14
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					15
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					16
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					17
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					18
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					19
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					20
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					21
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					22
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					23
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+			<Point>
+				<position>
+					24
+				</position>
+				<quantity>
+					0.000
+				</quantity>
+			</Point>
+		</Period>
+	</TimeSeries>
+</Schedule_MarketDocument>
+IntradayEpex.Trade
+<TradeListEntryType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" tradeId="1339872744" state="ACTI" contractId="13108543" qty="5000" px="9575" execTime="2022-11-07T06:43:12.262Z" revisionNo="1" preArranged="false" contractPhase="CONT" decomposed="false" remoteTradeId="204233870" selfTrade="false">
+	<Sell clearingAcctType="P" dlvryAreaId="10YDE-RWENET---I" acctId="11XDISAM-------V" ordrId="13278791473" txt="" usrCode="TRD020" clOrdrId="02abd52b-bd06-4a92-8c31-535570e8161d" mbrId="DISEX" remoteOrdrId="2504657695" xmlns="http://www.deutsche-boerse.com/m7/v6" />
+</TradeListEntryType>
+<TradeListEntryType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" tradeId="1339918024" state="ACTI" contractId="13106523" qty="1000" px="8700" execTime="2022-11-07T09:02:51.239Z" revisionNo="1" preArranged="false" contractPhase="CONT" decomposed="false" selfTrade="false">
+	<Buy clearingAcctType="P" dlvryAreaId="10YGB----------A" acctId="11XDISAM-------V" ordrId="13279258195" txt="" aggressorIndicator="N" usrCode="TRD020" clOrdrId="43f9338a-d179-42d1-b985-2f61516d3deb" mbrId="DISEX" xmlns="http://www.deutsche-boerse.com/m7/v6" />
+</TradeListEntryType>
+IntradayEpex.Contract
+<ContractListEntryType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" contractId="13111431" prod="After_Market_Quarter_Hour_Power_NL" name="20221112 09:30-20221112 09:45" longName="20221112 09:30-20221112 09:45" dlvryStart="2022-11-12T08:30:00Z" dlvryEnd="2022-11-12T08:45:00Z" predefined="true" revisionNo="0" state="IACT" tradingPhase="CLSD" duration="0.25" actPoint="2022-11-11T23:00:00Z" expPoint="2022-11-13T07:30:00Z" delUnits="0.25" />
+ICS.Trade
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AllocationDataResp xmlns="http://www.deutsche-boerse.com/m7/v1" xmlns:ns2="http://www.deutsche-boerse.com/cmm/admin/v1.0" success="true" message="OK">
+	<AllocationDataList balancingGroup="11XDISAM-------V" inArea="10YFR-RTE------C" outArea="10YCH-SWISSGRIDZ">
+		<AllocationData allocationId="22799640" time="2022-11-04T21:33:11.714Z" activityType="ALLOCATION" periodStart="2022-11-05T12:00:00Z" periodEnd="2022-11-05T12:30:00Z" quantity="50000" />
+		<AllocationData allocationId="22799641" time="2022-11-04T21:33:11.714Z" activityType="ALLOCATION" periodStart="2022-11-05T12:30:00Z" periodEnd="2022-11-05T13:00:00Z" quantity="50000" />
+		<AllocationData allocationId="22799642" time="2022-11-04T21:33:11.714Z" activityType="ALLOCATION" periodStart="2022-11-05T13:00:00Z" periodEnd="2022-11-05T13:30:00Z" quantity="79000" />
+		<AllocationData allocationId="22799643" time="2022-11-04T21:33:11.714Z" activityType="ALLOCATION" periodStart="2022-11-05T13:30:00Z" periodEnd="2022-11-05T14:00:00Z" quantity="79000" />
+		<AllocationData allocationId="22799644" time="2022-11-04T21:33:11.714Z" activityType="ALLOCATION" periodStart="2022-11-05T15:00:00Z" periodEnd="2022-11-05T15:30:00Z" quantity="24000" />
+		<AllocationData allocationId="22799645" time="2022-11-04T21:33:11.714Z" activityType="ALLOCATION" periodStart="2022-11-05T15:30:00Z" periodEnd="2022-11-05T16:00:00Z" quantity="24000" />
+	</AllocationDataList>
+</AllocationDataResp>
+ICS_Amprion.Trade
+<?xml version="1.0" encoding="utf-16"?>
+<AllocationDataResp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" success="true" message="OK" xmlns="http://www.deutsche-boerse.com/m7/v1">
+	<AllocationDataList balancingGroup="11XDISAM-------V" inArea="10YDE-RWENET---I" outArea="10YFR-RTE------C">
+		<AllocationData periodStart="2022-11-06T03:00:00Z" periodEnd="2022-11-06T03:30:00Z" quantity="100000" allocationId="280546592" time="2022-11-06T02:14:30.894Z" bmCode="EDAN1TCD" />
+		<AllocationData periodStart="2022-11-06T03:30:00Z" periodEnd="2022-11-06T04:00:00Z" quantity="100000" allocationId="280546593" time="2022-11-06T02:14:30.894Z" bmCode="EDAN1TCD" />
+	</AllocationDataList>
+</AllocationDataResp>
+SAPRI.Trade
+<?xml version="1.0" encoding="UTF-8"?>
+<response status="1">
+	<dam-schedule calculation="Fri Apr 02 00:00:00 CEST 2021" calculation_tz="2021-04-02 00:00:00 +0200" deliverydate="2021-04-02 00:00:00">
+		<participants />
+		<portfolios />
+		<areaprices>
+			<area id="PL">
+				<currencies>
+					<currency id="PLN" reportpricedecimals="2">
+						<period-prices average="234.30" max="294.76" min="210.99">
+							<periodvalue id="1" value="225.47" />
+							<periodvalue id="2" value="225.44" />
+							<periodvalue id="3" value="226.08" />
+							<periodvalue id="4" value="225.91" />
+							<periodvalue id="5" value="219.72" />
+							<periodvalue id="6" value="225.37" />
+							<periodvalue id="7" value="246.31" />
+							<periodvalue id="8" value="233.94" />
+							<periodvalue id="9" value="246.35" />
+							<periodvalue id="10" value="246.77" />
+							<periodvalue id="11" value="229.53" />
+							<periodvalue id="12" value="223.25" />
+							<periodvalue id="13" value="215.92" />
+							<periodvalue id="14" value="219.44" />
+							<periodvalue id="15" value="210.99" />
+							<periodvalue id="16" value="215.11" />
+							<periodvalue id="17" value="229.53" />
+							<periodvalue id="18" value="227.81" />
+							<periodvalue id="19" value="248.62" />
+							<periodvalue id="20" value="260.17" />
+							<periodvalue id="21" value="294.76" />
+							<periodvalue id="22" value="249.50" />
+							<periodvalue id="23" value="251.83" />
+							<periodvalue id="24" value="225.47" />
+						</period-prices>
+						<blockbids />
+					</currency>
+				</currencies>
+				<purchase average="1017.4" max="1719.1" min="370.1" tot="24416.5">
+					<periodvalue id="1" value="806.0" />
+					<periodvalue id="2" value="576.2" />
+					<periodvalue id="3" value="370.1" />
+					<periodvalue id="4" value="438.8" />
+					<periodvalue id="5" value="704.5" />
+					<periodvalue id="6" value="851.6" />
+					<periodvalue id="7" value="975.6" />
+					<periodvalue id="8" value="908.5" />
+					<periodvalue id="9" value="767.0" />
+					<periodvalue id="10" value="1012.2" />
+					<periodvalue id="11" value="974.4" />
+					<periodvalue id="12" value="1308.9" />
+					<periodvalue id="13" value="1392.0" />
+					<periodvalue id="14" value="1201.6" />
+					<periodvalue id="15" value="1315.5" />
+					<periodvalue id="16" value="1290.3" />
+					<periodvalue id="17" value="1027.9" />
+					<periodvalue id="18" value="1165.0" />
+					<periodvalue id="19" value="1092.7" />
+					<periodvalue id="20" value="1221.6" />
+					<periodvalue id="21" value="1719.1" />
+					<periodvalue id="22" value="1152.0" />
+					<periodvalue id="23" value="1254.1" />
+					<periodvalue id="24" value="890.9" />
+				</purchase>
+				<sale average="1017.4" max="1719.1" min="370.1" tot="24416.5">
+					<periodvalue id="1" value="806.0" />
+					<periodvalue id="2" value="576.2" />
+					<periodvalue id="3" value="370.1" />
+					<periodvalue id="4" value="438.8" />
+					<periodvalue id="5" value="704.5" />
+					<periodvalue id="6" value="851.6" />
+					<periodvalue id="7" value="975.6" />
+					<periodvalue id="8" value="908.5" />
+					<periodvalue id="9" value="767.0" />
+					<periodvalue id="10" value="1012.2" />
+					<periodvalue id="11" value="974.4" />
+					<periodvalue id="12" value="1308.9" />
+					<periodvalue id="13" value="1392.0" />
+					<periodvalue id="14" value="1201.6" />
+					<periodvalue id="15" value="1315.5" />
+					<periodvalue id="16" value="1290.3" />
+					<periodvalue id="17" value="1027.9" />
+					<periodvalue id="18" value="1165.0" />
+					<periodvalue id="19" value="1092.7" />
+					<periodvalue id="20" value="1221.6" />
+					<periodvalue id="21" value="1719.1" />
+					<periodvalue id="22" value="1152.0" />
+					<periodvalue id="23" value="1254.1" />
+					<periodvalue id="24" value="890.9" />
+				</sale>
+			</area>
+		</areaprices>
+	</dam-schedule>
+</response>

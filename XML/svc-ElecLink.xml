@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">
+    <soap:Body>
+        <submitNominationDocumentResponse xmlns=\"http://neptune.eterra.com/enp/contract/nominations/v1\"
+            xmlns:ns2=\"urn:iec62325.351:tc57wg16:451-2:scheduledocument:5:1\"
+            xmlns:ns3=\"urn:iec62325.351:tc57wg16:451-1:acknowledgementdocument:8:0\">
+            <ns3:Acknowledgement_MarketDocument>
+                <ns3:mRID>ACK_4978877827440412</ns3:mRID>
+                <ns3:createdDateTime>2024-02-02T11:06:26Z</ns3:createdDateTime>
+                <ns3:sender_MarketParticipant.mRID codingScheme=\"A01\">48X000000000101E</ns3:sender_MarketParticipant.mRID>
+                <ns3:sender_MarketParticipant.marketRole.type>A04</ns3:sender_MarketParticipant.marketRole.type>
+                <ns3:receiver_MarketParticipant.mRID codingScheme=\"A01\">11XDISAM-------V</ns3:receiver_MarketParticipant.mRID>
+                <ns3:receiver_MarketParticipant.marketRole.type>A30</ns3:receiver_MarketParticipant.marketRole.type>
+                <ns3:received_MarketDocument.mRID>20240203_DISAM_Eleclink</ns3:received_MarketDocument.mRID>
+                <ns3:received_MarketDocument.revisionNumber>1</ns3:received_MarketDocument.revisionNumber>
+                <ns3:received_MarketDocument.type>A01</ns3:received_MarketDocument.type>
+                <ns3:received_MarketDocument.title>20240203_DISAM_Eleclink.xml</ns3:received_MarketDocument.title>
+                <ns3:received_MarketDocument.createdDateTime>2024-02-02T11:06:24Z</ns3:received_MarketDocument.createdDateTime>
+                <ns3:Reason>
+                    <ns3:code>A01</ns3:code>
+                    <ns3:text>Message Fully Accepted</ns3:text>
+                </ns3:Reason>
+            </ns3:Acknowledgement_MarketDocument>
+        </submitNominationDocumentResponse>
+    </soap:Body>
+</soap:Envelope>

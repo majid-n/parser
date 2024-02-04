@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE AcknowledgementMessage SYSTEM "../schedulev2r3/dtd/acknowledgement-xml.dtd">
+<AcknowledgementMessage DtdVersion="2" DtdRelease="3">
+    <MessageIdentification v="ACK_EM00_4172523"/>
+    <MessageDateTime v="2024-02-02T14:26:29Z"/>
+    <SenderIdentification v="14XAT-APCS-----Q" codingScheme="A01"/>
+    <SenderRole v="A05"/>
+    <ReceiverIdentification v="11XDISAM-------V" codingScheme="A01"/>
+    <ReceiverRole v="A01"/>
+    <ReceivingMessageIdentification v="20240202_APCS_DISAM"/>
+    <ReceivingMessageVersion v="3"/>
+    <Reason>
+        <ReasonCode v="A01"/>
+    </Reason>
+</AcknowledgementMessage>

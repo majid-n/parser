@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AcknowledgementDocument DtdVersion="5" DtdRelease="1">
+    <DocumentIdentification v="20230428_ACK_DISAMBH_00001" />
+    <DocumentDateTime v="2023-04-28T13:40:49Z" />
+    <SenderIdentification v="10XBA-JPCCZEKC-K" codingScheme="A01" />
+    <SenderRole v="A07" />
+    <ReceiverIdentification v="36X-DISAMBH-DK-5" codingScheme="A01" />
+    <ReceiverRole v="A29" />
+    <ReceivingDocumentIdentification v="ECD0086D21B6436F9C8A2A44E16A360A" />
+    <ReceivingDocumentType v="A22" />
+    <ReceivingPayloadName v="20230428_TRP_36X-DISAMBH-DK-5_10XBA-JPCCZEKC-K_001.xml" />
+    <DateTimeReceivingDocument v="2023-04-28T13:40:49Z" />
+    <Reason>
+        <ReasonCode v="A01" />
+    </Reason>
+</AcknowledgementDocument>

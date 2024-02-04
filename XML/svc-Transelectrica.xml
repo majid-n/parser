@@ -1,0 +1,16 @@
+<Transelectrica_Webservice>
+    <DocumentIdentification v="20240101_Internal_10XRO-TEL------2_ACK" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <DocumentDateTime v="2023-12-31T11:55:17Z" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <SenderIdentification v="11XDISAM-------V" codingScheme="A01" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <SenderRole v="A04" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <ReceiverIdentification v="10XRO-TEL------2" codingScheme="A01" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <ReceiverRole v="A04" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <ReceivingDocumentIdentification v="20240101_Internal_10XRO-TEL------2" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <ReceivingDocumentVersion v="2" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <ReceivingDocumentType v="A37" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <DateTimeReceivingDocument v="2023-12-31T11:55:00Z" xmlns="http://localhost/xsd/ws-ack.xsd" />
+    <Reason xmlns="http://localhost/xsd/ws-ack.xsd">
+        <ReasonCode v="A01" />
+        <ReasonText v="Message fully accepted" />
+    </Reason>
+</Transelectrica_Webservice>

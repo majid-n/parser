@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "target": "ES2020",
+        // "allowImportingTsExtensions": true,
+        "strictNullChecks": false,
+        "strictFunctionTypes": true,
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

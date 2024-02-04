@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfirmationReport DtdVersion="3" DtdRelease="3">
+    <MessageIdentification v="20221125_CNF_11XDISAM-------V" />
+    <MessageType v="A08" />
+    <MessageDateTime v="2022-11-24T21:33:11Z" />
+    <SenderIdentification v="10XSK-SEPS-GRIDB" codingScheme="A01" />
+    <SenderRole v="A04" />
+    <ReceiverIdentification v="11XDISAM-------V" codingScheme="A01" />
+    <ReceiverRole v="A01" />
+    <ScheduleTimeInterval v="2022-11-24T23:00Z/2022-11-25T23:00Z" />
+    <ProcessType v="A17" />
+    <ConfirmedMessageIdentification v="20221125_SEPS_DISAM" />
+    <ConfirmedMessageVersion v="1" />
+    <Reason>
+        <ReasonCode v="A06" />
+        <ReasonText v="Schedule global position accepted" />
+    </Reason>
+    <TimeSeriesConfirmation>
+        <SendersTimeSeriesIdentification v="10582" />
+        <SendersTimeSeriesVersion v="1" />
+        <BusinessType v="A03" />
+        <Product v="8716867000016" />
+        <ObjectAggregation v="A03" />
+        <InArea v="10YSK-SEPS-----K" codingScheme="A01" />
+        <OutArea v="10YCZ-CEPS-----N" codingScheme="A01" />
+        <InParty v="11XDISAM-------V" codingScheme="A01" />
+        <OutParty v="11XDISAM-------V" codingScheme="A01" />
+        <CapacityContractType v="A07" />
+        <CapacityAgreementIdentification v="I_22112506_CS11XDISAM-------V_UO0P" />
+        <MeasurementUnit v="MAW" />
+        <Period>
+            <TimeInterval v="2022-11-24T23:00Z/2022-11-25T23:00Z" />
+            <Resolution v="PT60M" />
+            <Interval>
+                <Pos v="1" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="2" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="3" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="4" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="5" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="6" />
+                <Qty v="142.000" />
+            </Interval>
+            <Interval>
+                <Pos v="7" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="8" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="9" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="10" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="11" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="12" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="13" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="14" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="15" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="16" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="17" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="18" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="19" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="20" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="21" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="22" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="23" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="24" />
+                <Qty v="0.000" />
+            </Interval>
+        </Period>
+        <Reason>
+            <ReasonCode v="A88" />
+            <ReasonText v="Time series matched" />
+        </Reason>
+    </TimeSeriesConfirmation>
+    <TimeSeriesConfirmation>
+        <SendersTimeSeriesIdentification v="10585" />
+        <SendersTimeSeriesVersion v="1" />
+        <BusinessType v="A03" />
+        <Product v="8716867000016" />
+        <ObjectAggregation v="A03" />
+        <InArea v="10YHU-MAVIR----U" codingScheme="A01" />
+        <OutArea v="10YSK-SEPS-----K" codingScheme="A01" />
+        <InParty v="11XDISAM-------V" codingScheme="A01" />
+        <OutParty v="11XDISAM-------V" codingScheme="A01" />
+        <CapacityContractType v="A07" />
+        <CapacityAgreementIdentification v="I_22112506_SM11XDISAM-------V_88DQ" />
+        <MeasurementUnit v="MAW" />
+        <Period>
+            <TimeInterval v="2022-11-24T23:00Z/2022-11-25T23:00Z" />
+            <Resolution v="PT60M" />
+            <Interval>
+                <Pos v="1" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="2" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="3" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="4" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="5" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="6" />
+                <Qty v="142.000" />
+            </Interval>
+            <Interval>
+                <Pos v="7" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="8" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="9" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="10" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="11" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="12" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="13" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="14" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="15" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="16" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="17" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="18" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="19" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="20" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="21" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="22" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="23" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="24" />
+                <Qty v="0.000" />
+            </Interval>
+        </Period>
+        <Reason>
+            <ReasonCode v="A88" />
+            <ReasonText v="Time series matched" />
+        </Reason>
+    </TimeSeriesConfirmation>
+    <TimeSeriesConfirmation>
+        <SendersTimeSeriesIdentification v="10587" />
+        <SendersTimeSeriesVersion v="1" />
+        <BusinessType v="A03" />
+        <Product v="8716867000016" />
+        <ObjectAggregation v="A03" />
+        <InArea v="10YHU-MAVIR----U" codingScheme="A01" />
+        <OutArea v="10YSK-SEPS-----K" codingScheme="A01" />
+        <InParty v="11XDISAM-------V" codingScheme="A01" />
+        <OutParty v="11XDISAM-------V" codingScheme="A01" />
+        <CapacityContractType v="A07" />
+        <CapacityAgreementIdentification v="I_22112507_SM11XDISAM-------V_YFMO" />
+        <MeasurementUnit v="MAW" />
+        <Period>
+            <TimeInterval v="2022-11-24T23:00Z/2022-11-25T23:00Z" />
+            <Resolution v="PT60M" />
+            <Interval>
+                <Pos v="1" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="2" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="3" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="4" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="5" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="6" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="7" />
+                <Qty v="89.000" />
+            </Interval>
+            <Interval>
+                <Pos v="8" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="9" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="10" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="11" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="12" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="13" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="14" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="15" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="16" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="17" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="18" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="19" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="20" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="21" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="22" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="23" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="24" />
+                <Qty v="0.000" />
+            </Interval>
+        </Period>
+        <Reason>
+            <ReasonCode v="A88" />
+            <ReasonText v="Time series matched" />
+        </Reason>
+    </TimeSeriesConfirmation>
+    <TimeSeriesConfirmation>
+        <SendersTimeSeriesIdentification v="10584" />
+        <SendersTimeSeriesVersion v="1" />
+        <BusinessType v="A03" />
+        <Product v="8716867000016" />
+        <ObjectAggregation v="A03" />
+        <InArea v="10YSK-SEPS-----K" codingScheme="A01" />
+        <OutArea v="10YCZ-CEPS-----N" codingScheme="A01" />
+        <InParty v="11XDISAM-------V" codingScheme="A01" />
+        <OutParty v="11XDISAM-------V" codingScheme="A01" />
+        <CapacityContractType v="A07" />
+        <CapacityAgreementIdentification v="I_22112507_CS11XDISAM-------V_CSZN" />
+        <MeasurementUnit v="MAW" />
+        <Period>
+            <TimeInterval v="2022-11-24T23:00Z/2022-11-25T23:00Z" />
+            <Resolution v="PT60M" />
+            <Interval>
+                <Pos v="1" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="2" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="3" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="4" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="5" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="6" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="7" />
+                <Qty v="89.000" />
+            </Interval>
+            <Interval>
+                <Pos v="8" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="9" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="10" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="11" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="12" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="13" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="14" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="15" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="16" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="17" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="18" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="19" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="20" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="21" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="22" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="23" />
+                <Qty v="0.000" />
+            </Interval>
+            <Interval>
+                <Pos v="24" />
+                <Qty v="0.000" />
+            </Interval>
+        </Period>
+        <Reason>
+            <ReasonCode v="A88" />
+            <ReasonText v="Time series matched" />
+        </Reason>
+    </TimeSeriesConfirmation>
+</ConfirmationReport>
